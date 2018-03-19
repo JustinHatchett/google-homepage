@@ -1,0 +1,132 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.google-logo {
+    
+    width: 272px;
+    height: 92px;
+}
+
+.center-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 233px;
+}
+
+.search-box {
+    width: 60%;
+    height: 45px;
+    font-size: 15px;
+    margin-bottom: 8px;
+    margin-top: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 17px;
+    background-image:url(google-mic-icon.png);   
+    background-position:right;   
+    background-repeat:no-repeat;   
+    background-size: 24px;
+    -webkit-box-shadow: 2px 3px 0px -2px #ccc;
+    border-top: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.search-box:hover {
+    -webkit-box-shadow: 3px 6px 7px -3px #ccc;
+}
+
+.search-box:focus {
+    -webkit-box-shadow: 3px 6px 7px -3px #ccc;
+    outline: none;
+}
+
+.btn {
+    font-family: Arial;
+    color: #757575;
+    font-size: 13px;
+    font-weight: bold;
+    background: #f3f3f3;
+    padding: 11px 20px 11px 20px;
+    text-decoration: none;
+    margin: 3px;
+    border: none;
+    top: 50%;
+
+  }
+
+.btn:hover {
+    border: 1px solid #c6c6c6;
+    color: #000000;
+ }
+
+ .btn:focus {
+    outline: none;
+ }
+
+.wrapper {
+    text-align: center;
+}
+
+.top-nav {
+    list-style-type: none;
+    height: 41px;
+}
+
+li {
+    float: left;
+    margin-top: 1px;
+}
+
+a {
+    display: block;
+    padding: 8px;
+}
+
+a:link {
+    text-decoration: none;
+    color: #757575;
+    font-family: Arial;
+    font-size: 12px;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #757575;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+    color: #dd4e3b;
+}
+
+.bottom-nav {
+    border-top: 1px solid #e4e4e4;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: .1px;
+    background-color: #f2f2f2;
+    padding-bottom: 40px;
+    margin-top: 10px;
+    padding-right:20px;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.right {
+float: right!important;
+}
+
